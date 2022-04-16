@@ -1,32 +1,33 @@
 {
   "expo": {
-    "name": "FirstApp",
-    "slug": "FirstApp",
+    "name": "Whitecode",
+    "slug": "whitecode",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Whitecode_icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Whitecode_icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Whitecode_icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.whitecode.whitecode"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/Whitecode_icon.png"
+    },
+    "description": "Show casing my first native app",
+    "githubUrl": "https://github.com/Ibnyahyah/whitecode_nativeApp"
   }
 }
